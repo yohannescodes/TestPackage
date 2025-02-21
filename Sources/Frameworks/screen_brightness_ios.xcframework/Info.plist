@@ -24,8 +24,6 @@
 		<dict>
 			<key>BinaryPath</key>
 			<string>screen_brightness_ios.framework/screen_brightness_ios</string>
-			<key>DebugSymbolsPath</key>
-			<string>dSYMs</string>
 			<key>LibraryIdentifier</key>
 			<string>ios-arm64</string>
 			<key>LibraryPath</key>

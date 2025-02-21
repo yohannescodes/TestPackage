@@ -77,6 +77,7 @@
         "usr": "c:@M@media_kit_video@objc(cs)MediaKitVideoPlugin",
         "mangledName": "$s15media_kit_video19MediaKitVideoPluginC",
         "moduleName": "media_kit_video",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjC"

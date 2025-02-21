@@ -17,6 +17,30 @@
         "printedName": "ConnectivityPlusPlugin",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(connectivityProvider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectivityPlusPlugin",
+                "printedName": "connectivity_plus.ConnectivityPlusPlugin",
+                "usr": "c:@M@connectivity_plus@objc(cs)ConnectivityPlusPlugin"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectivityProvider",
+                "printedName": "any connectivity_plus.ConnectivityProvider",
+                "usr": "s:17connectivity_plus20ConnectivityProviderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17connectivity_plus22ConnectivityPlusPluginC0A8ProviderAcA0cF0_p_tcfc",
+            "mangledName": "$s17connectivity_plus22ConnectivityPlusPluginC0A8ProviderAcA0cF0_p_tcfc",
+            "moduleName": "connectivity_plus",
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "register",
             "printedName": "register(with:)",
@@ -67,6 +91,7 @@
             "usr": "c:@M@connectivity_plus@objc(cs)ConnectivityPlusPlugin(im)detachFromEngineForRegistrar:",
             "mangledName": "$s17connectivity_plus22ConnectivityPlusPluginC16detachFromEngine3forySo07FlutterE9Registrar_p_tF",
             "moduleName": "connectivity_plus",
+            "isOpen": true,
             "objc_name": "detachFromEngineForRegistrar:",
             "declAttributes": [
               "ObjC",
@@ -120,6 +145,7 @@
             "usr": "c:@M@connectivity_plus@objc(cs)ConnectivityPlusPlugin(im)handleMethodCall:result:",
             "mangledName": "$s17connectivity_plus22ConnectivityPlusPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
             "moduleName": "connectivity_plus",
+            "isOpen": true,
             "objc_name": "handleMethodCall:result:",
             "declAttributes": [
               "ObjC",
@@ -189,6 +215,7 @@
             "usr": "c:@M@connectivity_plus@objc(cs)ConnectivityPlusPlugin(im)onListenWithArguments:eventSink:",
             "mangledName": "$s17connectivity_plus22ConnectivityPlusPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
             "moduleName": "connectivity_plus",
+            "isOpen": true,
             "objc_name": "onListenWithArguments:eventSink:",
             "declAttributes": [
               "ObjC",
@@ -233,6 +260,7 @@
             "usr": "c:@M@connectivity_plus@objc(cs)ConnectivityPlusPlugin(im)onCancelWithArguments:",
             "mangledName": "$s17connectivity_plus22ConnectivityPlusPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
             "moduleName": "connectivity_plus",
+            "isOpen": true,
             "objc_name": "onCancelWithArguments:",
             "declAttributes": [
               "ObjC",
@@ -271,6 +299,7 @@
         "usr": "c:@M@connectivity_plus@objc(cs)ConnectivityPlusPlugin",
         "mangledName": "$s17connectivity_plus22ConnectivityPlusPluginC",
         "moduleName": "connectivity_plus",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjC"
@@ -1028,6 +1057,7 @@
             "usr": "s:17connectivity_plus31PathMonitorConnectivityProviderC07currentE5TypesSayAA0E4TypeOGvp",
             "mangledName": "$s17connectivity_plus31PathMonitorConnectivityProviderC07currentE5TypesSayAA0E4TypeOGvp",
             "moduleName": "connectivity_plus",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -1056,6 +1086,7 @@
                 "usr": "s:17connectivity_plus31PathMonitorConnectivityProviderC07currentE5TypesSayAA0E4TypeOGvg",
                 "mangledName": "$s17connectivity_plus31PathMonitorConnectivityProviderC07currentE5TypesSayAA0E4TypeOGvg",
                 "moduleName": "connectivity_plus",
+                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -1104,6 +1135,7 @@
             "usr": "s:17connectivity_plus31PathMonitorConnectivityProviderC0A13UpdateHandlerySayAA0E4TypeOGcSgvp",
             "mangledName": "$s17connectivity_plus31PathMonitorConnectivityProviderC0A13UpdateHandlerySayAA0E4TypeOGcSgvp",
             "moduleName": "connectivity_plus",
+            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -1156,6 +1188,7 @@
                 "mangledName": "$s17connectivity_plus31PathMonitorConnectivityProviderC0A13UpdateHandlerySayAA0E4TypeOGcSgvg",
                 "moduleName": "connectivity_plus",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -1208,6 +1241,7 @@
                 "mangledName": "$s17connectivity_plus31PathMonitorConnectivityProviderC0A13UpdateHandlerySayAA0E4TypeOGcSgvs",
                 "moduleName": "connectivity_plus",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -1226,9 +1260,35 @@
                 "mangledName": "$s17connectivity_plus31PathMonitorConnectivityProviderC0A13UpdateHandlerySayAA0E4TypeOGcSgvM",
                 "moduleName": "connectivity_plus",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PathMonitorConnectivityProvider",
+                "printedName": "connectivity_plus.PathMonitorConnectivityProvider",
+                "usr": "c:@M@connectivity_plus@objc(cs)PathMonitorConnectivityProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@connectivity_plus@objc(cs)PathMonitorConnectivityProvider(im)init",
+            "mangledName": "$s17connectivity_plus31PathMonitorConnectivityProviderCACycfc",
+            "moduleName": "connectivity_plus",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
           },
           {
             "kind": "Function",
@@ -1245,6 +1305,7 @@
             "usr": "s:17connectivity_plus31PathMonitorConnectivityProviderC5startyyF",
             "mangledName": "$s17connectivity_plus31PathMonitorConnectivityProviderC5startyyF",
             "moduleName": "connectivity_plus",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -1265,6 +1326,7 @@
             "usr": "s:17connectivity_plus31PathMonitorConnectivityProviderC4stopyyF",
             "mangledName": "$s17connectivity_plus31PathMonitorConnectivityProviderC4stopyyF",
             "moduleName": "connectivity_plus",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -1275,6 +1337,7 @@
         "usr": "c:@M@connectivity_plus@objc(cs)PathMonitorConnectivityProvider",
         "mangledName": "$s17connectivity_plus31PathMonitorConnectivityProviderC",
         "moduleName": "connectivity_plus",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjC"

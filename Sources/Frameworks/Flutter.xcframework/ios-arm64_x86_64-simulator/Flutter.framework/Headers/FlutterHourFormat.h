@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:43848b1528212ffe441493f22e0ecf362f49ff1a645557f3ae8d15422407b6b6
-size 536
+// Copyright 2013 The Flutter Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+#ifndef FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERHOURFORMAT_H_
+#define FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERHOURFORMAT_H_
+
+#import <Foundation/Foundation.h>
+
+@interface FlutterHourFormat : NSObject
++ (BOOL)isAlwaysUse24HourFormat;
+
+@end
+
+#endif  // FLUTTER_SHELL_PLATFORM_DARWIN_COMMON_FRAMEWORK_HEADERS_FLUTTERHOURFORMAT_H_

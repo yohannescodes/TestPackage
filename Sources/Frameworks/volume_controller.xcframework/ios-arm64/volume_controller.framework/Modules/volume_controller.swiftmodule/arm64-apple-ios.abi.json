@@ -106,6 +106,7 @@
             "usr": "c:@M@volume_controller@objc(cs)SwiftVolumeControllerPlugin(im)handleMethodCall:result:",
             "mangledName": "$s17volume_controller27SwiftVolumeControllerPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
             "moduleName": "volume_controller",
+            "isOpen": true,
             "objc_name": "handleMethodCall:result:",
             "declAttributes": [
               "ObjC",
@@ -144,6 +145,7 @@
         "usr": "c:@M@volume_controller@objc(cs)SwiftVolumeControllerPlugin",
         "mangledName": "$s17volume_controller27SwiftVolumeControllerPluginC",
         "moduleName": "volume_controller",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjC"
@@ -286,6 +288,7 @@
             "usr": "s:17volume_controller14VolumeObserverC03getC0SfSgyF",
             "mangledName": "$s17volume_controller14VolumeObserverC03getC0SfSgyF",
             "moduleName": "volume_controller",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -318,16 +321,37 @@
             "usr": "s:17volume_controller14VolumeObserverC03setC00A012showSystemUIySf_SbtF",
             "mangledName": "$s17volume_controller14VolumeObserverC03setC00A012showSystemUIySf_SbtF",
             "moduleName": "volume_controller",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VolumeObserver",
+                "printedName": "volume_controller.VolumeObserver",
+                "usr": "s:17volume_controller14VolumeObserverC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17volume_controller14VolumeObserverCACycfc",
+            "mangledName": "$s17volume_controller14VolumeObserverCACycfc",
+            "moduleName": "volume_controller",
+            "implicit": true,
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
         "usr": "s:17volume_controller14VolumeObserverC",
         "mangledName": "$s17volume_controller14VolumeObserverC",
         "moduleName": "volume_controller",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl"
         ],
@@ -416,6 +440,7 @@
             "usr": "c:@M@volume_controller@objc(cs)VolumeListener(im)onListenWithArguments:eventSink:",
             "mangledName": "$s17volume_controller14VolumeListenerC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
             "moduleName": "volume_controller",
+            "isOpen": true,
             "objc_name": "onListenWithArguments:eventSink:",
             "declAttributes": [
               "ObjC",
@@ -460,10 +485,32 @@
             "usr": "c:@M@volume_controller@objc(cs)VolumeListener(im)onCancelWithArguments:",
             "mangledName": "$s17volume_controller14VolumeListenerC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
             "moduleName": "volume_controller",
+            "isOpen": true,
             "objc_name": "onCancelWithArguments:",
             "declAttributes": [
               "ObjC",
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "audioSessionObserver",
+            "printedName": "audioSessionObserver()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@volume_controller@objc(cs)VolumeListener(im)audioSessionObserver",
+            "mangledName": "$s17volume_controller14VolumeListenerC20audioSessionObserveryyF",
+            "moduleName": "volume_controller",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -551,6 +598,7 @@
             "mangledName": "$s17volume_controller14VolumeListenerC12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeyf6ChangeH0aypGSgSvSgtF",
             "moduleName": "volume_controller",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "observeValueForKeyPath:ofObject:change:context:",
             "declAttributes": [
               "Dynamic",
@@ -591,6 +639,7 @@
         "usr": "c:@M@volume_controller@objc(cs)VolumeListener",
         "mangledName": "$s17volume_controller14VolumeListenerC",
         "moduleName": "volume_controller",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjC"

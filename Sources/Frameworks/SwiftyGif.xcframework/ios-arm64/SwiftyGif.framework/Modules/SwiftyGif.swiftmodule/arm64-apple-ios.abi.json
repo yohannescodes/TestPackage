@@ -15,6 +15,83 @@
         ]
       },
       {
+        "kind": "Function",
+        "name": "objc_getAssociatedWeakObject",
+        "printedName": "objc_getAssociatedWeakObject(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "AnyObject?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ProtocolComposition",
+            "printedName": "AnyObject"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeRawPointer",
+            "printedName": "Swift.UnsafeRawPointer",
+            "usr": "s:SV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9SwiftyGif28objc_getAssociatedWeakObjectyyXlSgyXl_SVtF",
+        "mangledName": "$s9SwiftyGif28objc_getAssociatedWeakObjectyyXlSgyXl_SVtF",
+        "moduleName": "SwiftyGif",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "objc_setAssociatedWeakObject",
+        "printedName": "objc_setAssociatedWeakObject(_:_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ProtocolComposition",
+            "printedName": "AnyObject"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeRawPointer",
+            "printedName": "Swift.UnsafeRawPointer",
+            "usr": "s:SV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "AnyObject?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9SwiftyGif28objc_setAssociatedWeakObjectyyyXl_SVyXlSgtF",
+        "mangledName": "$s9SwiftyGif28objc_setAssociatedWeakObjectyyyXl_SVyXlSgtF",
+        "moduleName": "SwiftyGif",
+        "funcSelfKind": "NonMutating"
+      },
+      {
         "kind": "Import",
         "name": "ImageIO",
         "printedName": "ImageIO",
@@ -374,6 +451,7 @@
             "usr": "s:9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavp",
             "mangledName": "$s9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavp",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -398,6 +476,7 @@
                 "mangledName": "$s9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavg",
                 "moduleName": "SwiftyGif",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -422,6 +501,7 @@
                 "mangledName": "$s9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavs",
                 "moduleName": "SwiftyGif",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -440,6 +520,7 @@
                 "mangledName": "$s9SwiftyGif0aB7ManagerC4modeSo13NSRunLoopModeavM",
                 "moduleName": "SwiftyGif",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -487,6 +568,7 @@
             "usr": "s:9SwiftyGif0aB7ManagerC18startTimerIfNeededyyF",
             "mangledName": "$s9SwiftyGif0aB7ManagerC18startTimerIfNeededyyF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -507,6 +589,7 @@
             "usr": "s:9SwiftyGif0aB7ManagerC9stopTimeryyF",
             "mangledName": "$s9SwiftyGif0aB7ManagerC9stopTimeryyF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -680,6 +763,28 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateImageView",
+            "printedName": "updateImageView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SwiftyGif0aB7ManagerC15updateImageViewyyF",
+            "mangledName": "$s9SwiftyGif0aB7ManagerC15updateImageViewyyF",
+            "moduleName": "SwiftyGif",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -720,6 +825,420 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "SwiftyGif"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GifParseError",
+        "printedName": "GifParseError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidFilename",
+            "printedName": "invalidFilename",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftyGif.GifParseError.Type) -> SwiftyGif.GifParseError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GifParseError",
+                    "printedName": "SwiftyGif.GifParseError",
+                    "usr": "s:9SwiftyGif0B10ParseErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftyGif.GifParseError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GifParseError",
+                        "printedName": "SwiftyGif.GifParseError",
+                        "usr": "s:9SwiftyGif0B10ParseErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SwiftyGif0B10ParseErrorO15invalidFilenameyA2CmF",
+            "mangledName": "$s9SwiftyGif0B10ParseErrorO15invalidFilenameyA2CmF",
+            "moduleName": "SwiftyGif",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "noImages",
+            "printedName": "noImages",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftyGif.GifParseError.Type) -> SwiftyGif.GifParseError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GifParseError",
+                    "printedName": "SwiftyGif.GifParseError",
+                    "usr": "s:9SwiftyGif0B10ParseErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftyGif.GifParseError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GifParseError",
+                        "printedName": "SwiftyGif.GifParseError",
+                        "usr": "s:9SwiftyGif0B10ParseErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SwiftyGif0B10ParseErrorO8noImagesyA2CmF",
+            "mangledName": "$s9SwiftyGif0B10ParseErrorO8noImagesyA2CmF",
+            "moduleName": "SwiftyGif",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "noProperties",
+            "printedName": "noProperties",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftyGif.GifParseError.Type) -> SwiftyGif.GifParseError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GifParseError",
+                    "printedName": "SwiftyGif.GifParseError",
+                    "usr": "s:9SwiftyGif0B10ParseErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftyGif.GifParseError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GifParseError",
+                        "printedName": "SwiftyGif.GifParseError",
+                        "usr": "s:9SwiftyGif0B10ParseErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SwiftyGif0B10ParseErrorO12noPropertiesyA2CmF",
+            "mangledName": "$s9SwiftyGif0B10ParseErrorO12noPropertiesyA2CmF",
+            "moduleName": "SwiftyGif",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "noGifDictionary",
+            "printedName": "noGifDictionary",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftyGif.GifParseError.Type) -> SwiftyGif.GifParseError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GifParseError",
+                    "printedName": "SwiftyGif.GifParseError",
+                    "usr": "s:9SwiftyGif0B10ParseErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftyGif.GifParseError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GifParseError",
+                        "printedName": "SwiftyGif.GifParseError",
+                        "usr": "s:9SwiftyGif0B10ParseErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SwiftyGif0B10ParseErrorO02noB10DictionaryyA2CmF",
+            "mangledName": "$s9SwiftyGif0B10ParseErrorO02noB10DictionaryyA2CmF",
+            "moduleName": "SwiftyGif",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "noTimingInfo",
+            "printedName": "noTimingInfo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftyGif.GifParseError.Type) -> SwiftyGif.GifParseError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GifParseError",
+                    "printedName": "SwiftyGif.GifParseError",
+                    "usr": "s:9SwiftyGif0B10ParseErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftyGif.GifParseError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GifParseError",
+                        "printedName": "SwiftyGif.GifParseError",
+                        "usr": "s:9SwiftyGif0B10ParseErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SwiftyGif0B10ParseErrorO12noTimingInfoyA2CmF",
+            "mangledName": "$s9SwiftyGif0B10ParseErrorO12noTimingInfoyA2CmF",
+            "moduleName": "SwiftyGif",
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GifParseError",
+                "printedName": "SwiftyGif.GifParseError",
+                "usr": "s:9SwiftyGif0B10ParseErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GifParseError",
+                "printedName": "SwiftyGif.GifParseError",
+                "usr": "s:9SwiftyGif0B10ParseErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SwiftyGif0B10ParseErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9SwiftyGif0B10ParseErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "SwiftyGif",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SwiftyGif0B10ParseErrorO9hashValueSivp",
+            "mangledName": "$s9SwiftyGif0B10ParseErrorO9hashValueSivp",
+            "moduleName": "SwiftyGif",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SwiftyGif0B10ParseErrorO9hashValueSivg",
+                "mangledName": "$s9SwiftyGif0B10ParseErrorO9hashValueSivg",
+                "moduleName": "SwiftyGif",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SwiftyGif0B10ParseErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9SwiftyGif0B10ParseErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "SwiftyGif",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SwiftyGif0B10ParseErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s9SwiftyGif0B10ParseErrorO16errorDescriptionSSSgvp",
+            "moduleName": "SwiftyGif",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SwiftyGif0B10ParseErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s9SwiftyGif0B10ParseErrorO16errorDescriptionSSSgvg",
+                "moduleName": "SwiftyGif",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9SwiftyGif0B10ParseErrorO",
+        "mangledName": "$s9SwiftyGif0B10ParseErrorO",
+        "moduleName": "SwiftyGif",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1870,6 +2389,7 @@
             "usr": "s:So7UIImageC9SwiftyGifE03setC8FromData_16levelOfIntegrityy10Foundation0F0V_SftKF",
             "mangledName": "$sSo7UIImageC9SwiftyGifE03setC8FromData_16levelOfIntegrityy10Foundation0F0V_SftKF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -1905,6 +2425,7 @@
             "usr": "s:So7UIImageC9SwiftyGifE03setC0_6bundleySS_So8NSBundleCtKF",
             "mangledName": "$sSo7UIImageC9SwiftyGifE03setC0_6bundleySS_So8NSBundleCtKF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -1928,6 +2449,7 @@
             "usr": "s:So7UIImageC9SwiftyGifE11framesCountSiyF",
             "mangledName": "$sSo7UIImageC9SwiftyGifE11framesCountSiyF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -1968,6 +2490,7 @@
             "usr": "s:So7UIImageC9SwiftyGifE03setC0_16levelOfIntegrity6bundleySS_SfSo8NSBundleCtKF",
             "mangledName": "$sSo7UIImageC9SwiftyGifE03setC0_16levelOfIntegrity6bundleySS_SfSo8NSBundleCtKF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "RawDocComment"
             ],
@@ -1990,6 +2513,7 @@
             "usr": "s:So7UIImageC9SwiftyGifE5clearyyF",
             "mangledName": "$sSo7UIImageC9SwiftyGifE5clearyyF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2017,6 +2541,7 @@
             "usr": "s:So7UIImageC9SwiftyGifE11imageSourceSo07CGImageE3RefaSgvp",
             "mangledName": "$sSo7UIImageC9SwiftyGifE11imageSourceSo07CGImageE3RefaSgvp",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "isFromExtension": true,
             "accessors": [
               {
@@ -2043,6 +2568,7 @@
                 "usr": "s:So7UIImageC9SwiftyGifE11imageSourceSo07CGImageE3RefaSgvg",
                 "mangledName": "$sSo7UIImageC9SwiftyGifE11imageSourceSo07CGImageE3RefaSgvg",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -2075,6 +2601,7 @@
                 "usr": "s:So7UIImageC9SwiftyGifE11imageSourceSo07CGImageE3RefaSgvs",
                 "mangledName": "$sSo7UIImageC9SwiftyGifE11imageSourceSo07CGImageE3RefaSgvs",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "set"
               },
@@ -2094,6 +2621,7 @@
                 "mangledName": "$sSo7UIImageC9SwiftyGifE11imageSourceSo07CGImageE3RefaSgvM",
                 "moduleName": "SwiftyGif",
                 "implicit": true,
+                "isOpen": true,
                 "intro_iOS": "2.0",
                 "declAttributes": [
                   "Available"
@@ -2127,6 +2655,7 @@
             "usr": "s:So7UIImageC9SwiftyGifE20displayRefreshFactorSiSgvp",
             "mangledName": "$sSo7UIImageC9SwiftyGifE20displayRefreshFactorSiSgvp",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "isFromExtension": true,
             "accessors": [
               {
@@ -2153,6 +2682,7 @@
                 "usr": "s:So7UIImageC9SwiftyGifE20displayRefreshFactorSiSgvg",
                 "mangledName": "$sSo7UIImageC9SwiftyGifE20displayRefreshFactorSiSgvg",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -2185,6 +2715,7 @@
                 "usr": "s:So7UIImageC9SwiftyGifE20displayRefreshFactorSiSgvs",
                 "mangledName": "$sSo7UIImageC9SwiftyGifE20displayRefreshFactorSiSgvs",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "set"
               },
@@ -2204,6 +2735,7 @@
                 "mangledName": "$sSo7UIImageC9SwiftyGifE20displayRefreshFactorSiSgvM",
                 "moduleName": "SwiftyGif",
                 "implicit": true,
+                "isOpen": true,
                 "intro_iOS": "2.0",
                 "declAttributes": [
                   "Available"
@@ -2237,6 +2769,7 @@
             "usr": "s:So7UIImageC9SwiftyGifE9imageSizeSiSgvp",
             "mangledName": "$sSo7UIImageC9SwiftyGifE9imageSizeSiSgvp",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "isFromExtension": true,
             "accessors": [
               {
@@ -2263,6 +2796,7 @@
                 "usr": "s:So7UIImageC9SwiftyGifE9imageSizeSiSgvg",
                 "mangledName": "$sSo7UIImageC9SwiftyGifE9imageSizeSiSgvg",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -2295,6 +2829,7 @@
                 "usr": "s:So7UIImageC9SwiftyGifE9imageSizeSiSgvs",
                 "mangledName": "$sSo7UIImageC9SwiftyGifE9imageSizeSiSgvs",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "set"
               },
@@ -2314,6 +2849,7 @@
                 "mangledName": "$sSo7UIImageC9SwiftyGifE9imageSizeSiSgvM",
                 "moduleName": "SwiftyGif",
                 "implicit": true,
+                "isOpen": true,
                 "intro_iOS": "2.0",
                 "declAttributes": [
                   "Available"
@@ -2347,6 +2883,7 @@
             "usr": "s:So7UIImageC9SwiftyGifE10imageCountSiSgvp",
             "mangledName": "$sSo7UIImageC9SwiftyGifE10imageCountSiSgvp",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "isFromExtension": true,
             "accessors": [
               {
@@ -2373,6 +2910,7 @@
                 "usr": "s:So7UIImageC9SwiftyGifE10imageCountSiSgvg",
                 "mangledName": "$sSo7UIImageC9SwiftyGifE10imageCountSiSgvg",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -2405,6 +2943,7 @@
                 "usr": "s:So7UIImageC9SwiftyGifE10imageCountSiSgvs",
                 "mangledName": "$sSo7UIImageC9SwiftyGifE10imageCountSiSgvs",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "set"
               },
@@ -2424,6 +2963,7 @@
                 "mangledName": "$sSo7UIImageC9SwiftyGifE10imageCountSiSgvM",
                 "moduleName": "SwiftyGif",
                 "implicit": true,
+                "isOpen": true,
                 "intro_iOS": "2.0",
                 "declAttributes": [
                   "Available"
@@ -2465,6 +3005,7 @@
             "usr": "s:So7UIImageC9SwiftyGifE12displayOrderSaySiGSgvp",
             "mangledName": "$sSo7UIImageC9SwiftyGifE12displayOrderSaySiGSgvp",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "isFromExtension": true,
             "accessors": [
               {
@@ -2499,6 +3040,7 @@
                 "usr": "s:So7UIImageC9SwiftyGifE12displayOrderSaySiGSgvg",
                 "mangledName": "$sSo7UIImageC9SwiftyGifE12displayOrderSaySiGSgvg",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -2539,6 +3081,7 @@
                 "usr": "s:So7UIImageC9SwiftyGifE12displayOrderSaySiGSgvs",
                 "mangledName": "$sSo7UIImageC9SwiftyGifE12displayOrderSaySiGSgvs",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "set"
               },
@@ -2558,6 +3101,7 @@
                 "mangledName": "$sSo7UIImageC9SwiftyGifE12displayOrderSaySiGSgvM",
                 "moduleName": "SwiftyGif",
                 "implicit": true,
+                "isOpen": true,
                 "intro_iOS": "2.0",
                 "declAttributes": [
                   "Available"
@@ -2591,6 +3135,7 @@
             "usr": "s:So7UIImageC9SwiftyGifE9imageData10Foundation0E0VSgvp",
             "mangledName": "$sSo7UIImageC9SwiftyGifE9imageData10Foundation0E0VSgvp",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "isFromExtension": true,
             "accessors": [
               {
@@ -2617,6 +3162,7 @@
                 "usr": "s:So7UIImageC9SwiftyGifE9imageData10Foundation0E0VSgvg",
                 "mangledName": "$sSo7UIImageC9SwiftyGifE9imageData10Foundation0E0VSgvg",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -2649,6 +3195,7 @@
                 "usr": "s:So7UIImageC9SwiftyGifE9imageData10Foundation0E0VSgvs",
                 "mangledName": "$sSo7UIImageC9SwiftyGifE9imageData10Foundation0E0VSgvs",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "set"
               },
@@ -2668,6 +3215,7 @@
                 "mangledName": "$sSo7UIImageC9SwiftyGifE9imageData10Foundation0E0VSgvM",
                 "moduleName": "SwiftyGif",
                 "implicit": true,
+                "isOpen": true,
                 "intro_iOS": "2.0",
                 "declAttributes": [
                   "Available"
@@ -2818,6 +3366,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE8setImage_7manager9loopCountySo0A0C_AC0cD7ManagerCSitF",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE8setImage_7manager9loopCountySo0A0C_AC0cD7ManagerCSitF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -2951,6 +3500,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE03setD5Image_7manager9loopCountySo0A0C_AC0cD7ManagerCSitF",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE03setD5Image_7manager9loopCountySo0A0C_AC0cD7ManagerCSitF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -3039,6 +3589,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE03setD7FromURL_7manager9loopCount16levelOfIntegrity7session10showLoader06customP0So20NSURLSessionDataTaskCSg10Foundation0G0V_AC0cD7ManagerCSiSfSo0R0CSbSo6UIViewCSgtF",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE03setD7FromURL_7manager9loopCount16levelOfIntegrity7session10showLoader06customP0So20NSURLSessionDataTaskCSg10Foundation0G0V_AC0cD7ManagerCSiSfSo0R0CSbSo6UIViewCSgtF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -3063,6 +3614,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE014startAnimatingD0yyF",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE014startAnimatingD0yyF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -3086,6 +3638,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE013stopAnimatingD0yyF",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE013stopAnimatingD0yyF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -3110,6 +3663,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE011isAnimatingD0SbyF",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE011isAnimatingD0SbyF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -3139,6 +3693,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE22showFrameForIndexDeltayySiF",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE22showFrameForIndexDeltayySiF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -3168,6 +3723,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE16showFrameAtIndexyySiF",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE16showFrameAtIndexyySiF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -3191,6 +3747,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE11updateCacheyyF",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE11updateCacheyyF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -3214,6 +3771,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE18updateCurrentImageyyF",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE18updateCurrentImageyyF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -3238,6 +3796,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE17currentFrameIndexSiyF",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE17currentFrameIndexSiyF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -3268,6 +3827,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE12frameAtIndex5indexSo0A0CSi_tF",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE12frameAtIndex5indexSo0A0CSi_tF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -3306,6 +3866,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE11isDiscardedySbSo6UIViewCSgF",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE11isDiscardedySbSo6UIViewCSgF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -3344,6 +3905,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE19isDisplayedInScreenySbSo6UIViewCSgF",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE19isDisplayedInScreenySbSo6UIViewCSgF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -3367,6 +3929,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE5clearyyF",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE5clearyyF",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom"
@@ -3398,6 +3961,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE8gifImageSo0A0CSgvp",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE8gifImageSo0A0CSgvp",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom"
@@ -3428,6 +3992,7 @@
                 "usr": "s:So11UIImageViewC9SwiftyGifE8gifImageSo0A0CSgvg",
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE8gifImageSo0A0CSgvg",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -3460,6 +4025,7 @@
                 "usr": "s:So11UIImageViewC9SwiftyGifE8gifImageSo0A0CSgvs",
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE8gifImageSo0A0CSgvs",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "set"
               },
@@ -3479,6 +4045,7 @@
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE8gifImageSo0A0CSgvM",
                 "moduleName": "SwiftyGif",
                 "implicit": true,
+                "isOpen": true,
                 "intro_iOS": "2.0",
                 "declAttributes": [
                   "Available"
@@ -3512,6 +4079,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE12currentImageSo0A0CSgvp",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE12currentImageSo0A0CSgvp",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom"
@@ -3542,6 +4110,7 @@
                 "usr": "s:So11UIImageViewC9SwiftyGifE12currentImageSo0A0CSgvg",
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE12currentImageSo0A0CSgvg",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -3574,6 +4143,7 @@
                 "usr": "s:So11UIImageViewC9SwiftyGifE12currentImageSo0A0CSgvs",
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE12currentImageSo0A0CSgvs",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "set"
               },
@@ -3593,6 +4163,7 @@
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE12currentImageSo0A0CSgvM",
                 "moduleName": "SwiftyGif",
                 "implicit": true,
+                "isOpen": true,
                 "intro_iOS": "2.0",
                 "declAttributes": [
                   "Available"
@@ -3618,6 +4189,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE9loopCountSivp",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE9loopCountSivp",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom"
@@ -3640,6 +4212,7 @@
                 "usr": "s:So11UIImageViewC9SwiftyGifE9loopCountSivg",
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE9loopCountSivg",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -3664,6 +4237,7 @@
                 "usr": "s:So11UIImageViewC9SwiftyGifE9loopCountSivs",
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE9loopCountSivs",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "set"
               },
@@ -3683,6 +4257,7 @@
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE9loopCountSivM",
                 "moduleName": "SwiftyGif",
                 "implicit": true,
+                "isOpen": true,
                 "intro_iOS": "2.0",
                 "declAttributes": [
                   "Available"
@@ -3716,6 +4291,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE16animationManagerAC0cdF0CSgvp",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE16animationManagerAC0cdF0CSgvp",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom"
@@ -3746,6 +4322,7 @@
                 "usr": "s:So11UIImageViewC9SwiftyGifE16animationManagerAC0cdF0CSgvg",
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE16animationManagerAC0cdF0CSgvg",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -3778,6 +4355,7 @@
                 "usr": "s:So11UIImageViewC9SwiftyGifE16animationManagerAC0cdF0CSgvs",
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE16animationManagerAC0cdF0CSgvs",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "set"
               },
@@ -3797,6 +4375,7 @@
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE16animationManagerAC0cdF0CSgvM",
                 "moduleName": "SwiftyGif",
                 "implicit": true,
+                "isOpen": true,
                 "intro_iOS": "2.0",
                 "declAttributes": [
                   "Available"
@@ -3830,6 +4409,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE8delegateAC0cD8Delegate_pSgvp",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE8delegateAC0cD8Delegate_pSgvp",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom"
@@ -3860,6 +4440,7 @@
                 "usr": "s:So11UIImageViewC9SwiftyGifE8delegateAC0cD8Delegate_pSgvg",
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE8delegateAC0cD8Delegate_pSgvg",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -3892,6 +4473,7 @@
                 "usr": "s:So11UIImageViewC9SwiftyGifE8delegateAC0cD8Delegate_pSgvs",
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE8delegateAC0cD8Delegate_pSgvs",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "set"
               },
@@ -3911,6 +4493,7 @@
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE8delegateAC0cD8Delegate_pSgvM",
                 "moduleName": "SwiftyGif",
                 "implicit": true,
+                "isOpen": true,
                 "intro_iOS": "2.0",
                 "declAttributes": [
                   "Available"
@@ -3936,6 +4519,7 @@
             "usr": "s:So11UIImageViewC9SwiftyGifE10displayingSbvp",
             "mangledName": "$sSo11UIImageViewC9SwiftyGifE10displayingSbvp",
             "moduleName": "SwiftyGif",
+            "isOpen": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom"
@@ -3958,6 +4542,7 @@
                 "usr": "s:So11UIImageViewC9SwiftyGifE10displayingSbvg",
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE10displayingSbvg",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -3982,6 +4567,7 @@
                 "usr": "s:So11UIImageViewC9SwiftyGifE10displayingSbvs",
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE10displayingSbvs",
                 "moduleName": "SwiftyGif",
+                "isOpen": true,
                 "isFromExtension": true,
                 "accessorKind": "set"
               },
@@ -4001,6 +4587,7 @@
                 "mangledName": "$sSo11UIImageViewC9SwiftyGifE10displayingSbvM",
                 "moduleName": "SwiftyGif",
                 "implicit": true,
+                "isOpen": true,
                 "intro_iOS": "2.0",
                 "declAttributes": [
                   "Available"
@@ -4118,357 +4705,357 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
       "kind": "IntegerLiteral",
       "offset": 440,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
       "kind": "Array",
       "offset": 633,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/SwiftyGifManager.swift",
       "kind": "Dictionary",
       "offset": 782,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 226,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "FloatLiteral",
       "offset": 283,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "FloatLiteral",
       "offset": 347,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "FloatLiteral",
       "offset": 414,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "FloatLiteral",
       "offset": 484,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 7309,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 7316,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "Array",
       "offset": 7466,
       "length": 42,
       "value": "[60, 30, 20, 15, 12, 10, 6, 5, 4, 3, 2, 1]"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 7550,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 7843,
       "length": 3,
       "value": "120"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 7981,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 8507,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 8769,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 8889,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 8928,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 8997,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 9035,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 9129,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 9191,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "Array",
       "offset": 9340,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 9374,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 9407,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 9461,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 9717,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 9784,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 10382,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 10431,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 10469,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 10508,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 10549,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 10587,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 1020,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 1640,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 2075,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 2644,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 4004,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "BooleanLiteral",
       "offset": 4187,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 13335,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 13369,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 13410,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 13456,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 13495,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 13533,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 13571,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 13610,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 13648,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 13693,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/yohannes\/Documents\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
+      "filePath": "\/Users\/yohannes\/Desktop\/test-flutter-module\/.ios\/Pods\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
       "offset": 13730,
       "length": 1,
