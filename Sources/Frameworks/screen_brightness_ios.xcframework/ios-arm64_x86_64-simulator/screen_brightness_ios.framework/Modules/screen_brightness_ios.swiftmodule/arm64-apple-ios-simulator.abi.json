@@ -1,0 +1,1650 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "screen_brightness_ios",
+    "printedName": "screen_brightness_ios",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "screen_brightness_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "screen_brightness_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseStreamHandler",
+        "printedName": "BaseStreamHandler",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "eventSink",
+            "printedName": "eventSink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Any?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21screen_brightness_ios17BaseStreamHandlerC9eventSinkyypSgcSgvp",
+            "mangledName": "$s21screen_brightness_ios17BaseStreamHandlerC9eventSinkyypSgcSgvp",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Any?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Any?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios17BaseStreamHandlerC9eventSinkyypSgcSgvg",
+                "mangledName": "$s21screen_brightness_ios17BaseStreamHandlerC9eventSinkyypSgcSgvg",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Any?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Any?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios17BaseStreamHandlerC9eventSinkyypSgcSgvs",
+                "mangledName": "$s21screen_brightness_ios17BaseStreamHandlerC9eventSinkyypSgcSgvs",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios17BaseStreamHandlerC9eventSinkyypSgcSgvM",
+                "mangledName": "$s21screen_brightness_ios17BaseStreamHandlerC9eventSinkyypSgcSgvM",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "onListen",
+            "printedName": "onListen(withArguments:eventSink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screen_brightness_ios@objc(cs)BaseStreamHandler(im)onListenWithArguments:eventSink:",
+            "mangledName": "$s21screen_brightness_ios17BaseStreamHandlerC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "objc_name": "onListenWithArguments:eventSink:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCancel",
+            "printedName": "onCancel(withArguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screen_brightness_ios@objc(cs)BaseStreamHandler(im)onCancelWithArguments:",
+            "mangledName": "$s21screen_brightness_ios17BaseStreamHandlerC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "objc_name": "onCancelWithArguments:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseStreamHandler",
+                "printedName": "screen_brightness_ios.BaseStreamHandler",
+                "usr": "c:@M@screen_brightness_ios@objc(cs)BaseStreamHandler"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@screen_brightness_ios@objc(cs)BaseStreamHandler(im)init",
+            "mangledName": "$s21screen_brightness_ios17BaseStreamHandlerCACycfc",
+            "moduleName": "screen_brightness_ios",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@screen_brightness_ios@objc(cs)BaseStreamHandler",
+        "mangledName": "$s21screen_brightness_ios17BaseStreamHandlerC",
+        "moduleName": "screen_brightness_ios",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "screen_brightness_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "screen_brightness_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "screen_brightness_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CurrentBrightnessChangeStreamHandler",
+        "printedName": "CurrentBrightnessChangeStreamHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "addCurrentBrightnessToEventSink",
+            "printedName": "addCurrentBrightnessToEventSink(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21screen_brightness_ios36CurrentBrightnessChangeStreamHandlerC03adddE11ToEventSinkyy14CoreFoundation7CGFloatVF",
+            "mangledName": "$s21screen_brightness_ios36CurrentBrightnessChangeStreamHandlerC03adddE11ToEventSinkyy12CoreGraphics7CGFloatVF",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CurrentBrightnessChangeStreamHandler",
+                "printedName": "screen_brightness_ios.CurrentBrightnessChangeStreamHandler",
+                "usr": "c:@M@screen_brightness_ios@objc(cs)CurrentBrightnessChangeStreamHandler"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@screen_brightness_ios@objc(cs)CurrentBrightnessChangeStreamHandler(im)init",
+            "mangledName": "$s21screen_brightness_ios36CurrentBrightnessChangeStreamHandlerCACycfc",
+            "moduleName": "screen_brightness_ios",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@screen_brightness_ios@objc(cs)CurrentBrightnessChangeStreamHandler",
+        "mangledName": "$s21screen_brightness_ios36CurrentBrightnessChangeStreamHandlerC",
+        "moduleName": "screen_brightness_ios",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@screen_brightness_ios@objc(cs)BaseStreamHandler",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "screen_brightness_ios.BaseStreamHandler",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "screen_brightness_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "screen_brightness_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftScreenBrightnessIosPlugin",
+        "printedName": "SwiftScreenBrightnessIosPlugin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "methodChannel",
+            "printedName": "methodChannel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterMethodChannel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterMethodChannel",
+                    "printedName": "Flutter.FlutterMethodChannel",
+                    "usr": "c:objc(cs)FlutterMethodChannel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC13methodChannelSo013FlutterMethodJ0CSgvp",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC13methodChannelSo013FlutterMethodJ0CSgvp",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Flutter.FlutterMethodChannel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterMethodChannel",
+                        "printedName": "Flutter.FlutterMethodChannel",
+                        "usr": "c:objc(cs)FlutterMethodChannel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC13methodChannelSo013FlutterMethodJ0CSgvg",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC13methodChannelSo013FlutterMethodJ0CSgvg",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Flutter.FlutterMethodChannel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterMethodChannel",
+                        "printedName": "Flutter.FlutterMethodChannel",
+                        "usr": "c:objc(cs)FlutterMethodChannel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC13methodChannelSo013FlutterMethodJ0CSgvs",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC13methodChannelSo013FlutterMethodJ0CSgvs",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC13methodChannelSo013FlutterMethodJ0CSgvM",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC13methodChannelSo013FlutterMethodJ0CSgvM",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentBrightnessChangeEventChannel",
+            "printedName": "currentBrightnessChangeEventChannel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterEventChannel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterEventChannel",
+                    "printedName": "Flutter.FlutterEventChannel",
+                    "usr": "c:objc(cs)FlutterEventChannel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07currentF18ChangeEventChannelSo07FlutterkL0CSgvp",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07currentF18ChangeEventChannelSo07FlutterkL0CSgvp",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Flutter.FlutterEventChannel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterEventChannel",
+                        "printedName": "Flutter.FlutterEventChannel",
+                        "usr": "c:objc(cs)FlutterEventChannel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07currentF18ChangeEventChannelSo07FlutterkL0CSgvg",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07currentF18ChangeEventChannelSo07FlutterkL0CSgvg",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Flutter.FlutterEventChannel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterEventChannel",
+                        "printedName": "Flutter.FlutterEventChannel",
+                        "usr": "c:objc(cs)FlutterEventChannel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07currentF18ChangeEventChannelSo07FlutterkL0CSgvs",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07currentF18ChangeEventChannelSo07FlutterkL0CSgvs",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07currentF18ChangeEventChannelSo07FlutterkL0CSgvM",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07currentF18ChangeEventChannelSo07FlutterkL0CSgvM",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentBrightnessChangeStreamHandler",
+            "printedName": "currentBrightnessChangeStreamHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CurrentBrightnessChangeStreamHandler",
+                "printedName": "screen_brightness_ios.CurrentBrightnessChangeStreamHandler",
+                "usr": "c:@M@screen_brightness_ios@objc(cs)CurrentBrightnessChangeStreamHandler"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07currentF19ChangeStreamHandlerAA07CurrentfjkL0Cvp",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07currentF19ChangeStreamHandlerAA07CurrentfjkL0Cvp",
+            "moduleName": "screen_brightness_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CurrentBrightnessChangeStreamHandler",
+                    "printedName": "screen_brightness_ios.CurrentBrightnessChangeStreamHandler",
+                    "usr": "c:@M@screen_brightness_ios@objc(cs)CurrentBrightnessChangeStreamHandler"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07currentF19ChangeStreamHandlerAA07CurrentfjkL0Cvg",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07currentF19ChangeStreamHandlerAA07CurrentfjkL0Cvg",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "systemBrightness",
+            "printedName": "systemBrightness",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC06systemF014CoreFoundation7CGFloatVSgvp",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC06systemF012CoreGraphics7CGFloatVSgvp",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC06systemF014CoreFoundation7CGFloatVSgvg",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC06systemF012CoreGraphics7CGFloatVSgvg",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC06systemF014CoreFoundation7CGFloatVSgvs",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC06systemF012CoreGraphics7CGFloatVSgvs",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC06systemF014CoreFoundation7CGFloatVSgvM",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC06systemF012CoreGraphics7CGFloatVSgvM",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "changedBrightness",
+            "printedName": "changedBrightness",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07changedF014CoreFoundation7CGFloatVSgvp",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07changedF012CoreGraphics7CGFloatVSgvp",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07changedF014CoreFoundation7CGFloatVSgvg",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07changedF012CoreGraphics7CGFloatVSgvg",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07changedF014CoreFoundation7CGFloatVSgvs",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07changedF012CoreGraphics7CGFloatVSgvs",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07changedF014CoreFoundation7CGFloatVSgvM",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC07changedF012CoreGraphics7CGFloatVSgvM",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAutoReset",
+            "printedName": "isAutoReset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC11isAutoResetSbvp",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC11isAutoResetSbvp",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC11isAutoResetSbvg",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC11isAutoResetSbvg",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC11isAutoResetSbvs",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC11isAutoResetSbvs",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC11isAutoResetSbvM",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC11isAutoResetSbvM",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "taskQueue",
+            "printedName": "taskQueue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OperationQueue",
+                "printedName": "Foundation.OperationQueue",
+                "usr": "c:objc(cs)NSOperationQueue"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC9taskQueueSo011NSOperationJ0Cvp",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC9taskQueueSo011NSOperationJ0Cvp",
+            "moduleName": "screen_brightness_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OperationQueue",
+                    "printedName": "Foundation.OperationQueue",
+                    "usr": "c:objc(cs)NSOperationQueue"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC9taskQueueSo011NSOperationJ0Cvg",
+                "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC9taskQueueSo011NSOperationJ0Cvg",
+                "moduleName": "screen_brightness_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screen_brightness_ios@objc(cs)SwiftScreenBrightnessIosPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC8register4withySo07FlutterH9Registrar_p_tFZ",
+            "moduleName": "screen_brightness_ios",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftScreenBrightnessIosPlugin",
+                "printedName": "screen_brightness_ios.SwiftScreenBrightnessIosPlugin",
+                "usr": "c:@M@screen_brightness_ios@objc(cs)SwiftScreenBrightnessIosPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@screen_brightness_ios@objc(cs)SwiftScreenBrightnessIosPlugin(im)init",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginCACycfc",
+            "moduleName": "screen_brightness_ios",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screen_brightness_ios@objc(cs)SwiftScreenBrightnessIosPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setScreenBrightness",
+            "printedName": "setScreenBrightness(targetBrightness:animated:duration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC03seteF006targetF08animated8durationy14CoreFoundation7CGFloatV_SbSdtF",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC03seteF006targetF08animated8durationy12CoreGraphics7CGFloatV_SbSdtF",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onApplicationPause",
+            "printedName": "onApplicationPause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC18onApplicationPauseyyF",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC18onApplicationPauseyyF",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onApplicationResume",
+            "printedName": "onApplicationResume()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21screen_brightness_ios30SwiftScreenBrightnessIosPluginC19onApplicationResumeyyF",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC19onApplicationResumeyyF",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applicationWillResignActive",
+            "printedName": "applicationWillResignActive(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screen_brightness_ios@objc(cs)SwiftScreenBrightnessIosPlugin(im)applicationWillResignActive:",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC27applicationWillResignActiveyySo13UIApplicationCF",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "objc_name": "applicationWillResignActive:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applicationDidBecomeActive",
+            "printedName": "applicationDidBecomeActive(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screen_brightness_ios@objc(cs)SwiftScreenBrightnessIosPlugin(im)applicationDidBecomeActive:",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC26applicationDidBecomeActiveyySo13UIApplicationCF",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "objc_name": "applicationDidBecomeActive:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applicationWillTerminate",
+            "printedName": "applicationWillTerminate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screen_brightness_ios@objc(cs)SwiftScreenBrightnessIosPlugin(im)applicationWillTerminate:",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC24applicationWillTerminateyySo13UIApplicationCF",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "objc_name": "applicationWillTerminate:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "detachFromEngine",
+            "printedName": "detachFromEngine(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screen_brightness_ios@objc(cs)SwiftScreenBrightnessIosPlugin(im)detachFromEngineForRegistrar:",
+            "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC16detachFromEngine3forySo07FlutterH9Registrar_p_tF",
+            "moduleName": "screen_brightness_ios",
+            "isOpen": true,
+            "objc_name": "detachFromEngineForRegistrar:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@screen_brightness_ios@objc(cs)SwiftScreenBrightnessIosPlugin",
+        "mangledName": "$s21screen_brightness_ios30SwiftScreenBrightnessIosPluginC",
+        "moduleName": "screen_brightness_ios",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/yohannes\/.pub-cache\/hosted\/pub.dev\/screen_brightness_ios-0.1.0\/ios\/Classes\/SwiftScreenBrightnessIosPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 486,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/yohannes\/.pub-cache\/hosted\/pub.dev\/screen_brightness_ios-0.1.0\/ios\/Classes\/SwiftScreenBrightnessIosPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 615,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/yohannes\/.pub-cache\/hosted\/pub.dev\/screen_brightness_ios-0.1.0\/ios\/Classes\/SwiftScreenBrightnessIosPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 2676,
+      "length": 3,
+      "value": "1.0"
+    }
+  ]
+}
