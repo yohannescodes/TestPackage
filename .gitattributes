@@ -1,9 +1,9 @@
 # Track Flutter framework files
-Frameworks/Flutter.xcframework/**/*.framework/** filter=lfs diff=lfs merge=lfs -text
+Sources/Frameworks/Flutter.xcframework/**/*.framework/** filter=lfs diff=lfs merge=lfs -text
 # Track dSYM files
-Frameworks/Flutter.xcframework/**/*.dSYM/** filter=lfs diff=lfs merge=lfs -text
+Sources/Frameworks/Flutter.xcframework/**/*.dSYM/** filter=lfs diff=lfs merge=lfs -text
 # Catch any other large blobs (optional, adjust as needed)
 *.dsym filter=lfs diff=lfs merge=lfs -text
 *.framework filter=lfs diff=lfs merge=lfs -text
-Frameworks/Flutter.xcframework/** filter=lfs diff=lfs merge=lfs -text
 Sources/Frameworks/Flutter.xcframework/** filter=lfs diff=lfs merge=lfs -text
+Frameworks/Flutter.xcframework/** filter=lfs diff=lfs merge=lfs -text
